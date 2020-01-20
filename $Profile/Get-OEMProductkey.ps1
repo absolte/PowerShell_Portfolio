@@ -1,4 +1,4 @@
-Function Get-OEMProductkey
+Function Get-OEMProductKey
 {
   param (
     [Parameter(ValueFromPipeline=$True,ValueFromPipelineByPropertyName=$True)]
@@ -6,7 +6,6 @@ Function Get-OEMProductkey
   )  
 
   (Get-WmiObject -query 'select * from SoftwareLicensingService' -ComputerName $ComputerName).OA3xOriginalProductKey
-  
 }
 
-Get-OEMProductkey
+Get-OEMProductKey
