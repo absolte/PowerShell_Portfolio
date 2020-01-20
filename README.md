@@ -6,10 +6,13 @@ PowerShell_Portfolio serves as a repository for my work in PowerShell.
 # What you will find:
 
   * $Profile
-    * Get-LastBoot.ps1
+	* Get-ComputerDescription
+	* Get-CurrentDC
+    * Get-LastBoot
     * Get-MAC
-    * Get-OEMkey
+    * Get-OEMProductKey
     * Get-SID
+	* Set-ComputerDescription
   * HPBios_DefaultConfigs.ps1
   * StartMenu_Layout.ps1
   * TimeTaken.ps1
