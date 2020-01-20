@@ -7,5 +7,3 @@ Function Get-OEMProductKey
 
   (Get-WmiObject -query 'select * from SoftwareLicensingService' -ComputerName $ComputerName).OA3xOriginalProductKey
 }
-
-Get-OEMProductKey
