@@ -11,14 +11,13 @@ PowerShell_Portfolio serves as a repository for my work in PowerShell.
     * Get-LastBoot
     * Get-MAC
     * Get-OEMProductKey
+	* Get-ProductKey
     * Get-SID
 	* Set-ComputerDescription
   * HPBios_DefaultConfigs.ps1
   * StartMenu_Layout.ps1
   * TimeTaken.ps1
   * VNC_Config.ps1
-
-Markdown is a lightweight markup language based on the formatting conventions that people naturally use in email.  As [John Gruber] writes on the [Markdown site][df1]
 
 ### $Profile
 > Use the contents of $Profile to build a profile in PowerShell,
