@@ -5,5 +5,3 @@ function Set-ComputerDescription {
   )
   Get-CimInstance -ClassName Win32_OperatingSystem | Set-CimInstance -Property @{description = $Description}
 }
-
-Set-ComputerDescription

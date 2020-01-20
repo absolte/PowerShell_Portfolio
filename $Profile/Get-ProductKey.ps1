@@ -16,5 +16,3 @@ function Get-ProductKey {
     }
     $ProductKey
 } 
-
-Get-ProductKey

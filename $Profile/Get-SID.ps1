@@ -10,5 +10,3 @@ Function Get-SID
     Get-ADComputer -Filter {Name -eq $ComputerName2} -Properties sid | Select-Object name, sid
   }
 }
-
-Get-SID
